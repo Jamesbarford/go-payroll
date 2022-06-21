@@ -9,7 +9,7 @@ import (
 )
 
 type PayrollAddUserRequest struct {
-	Forename    string  `json:"foreName"`
+	Forename    string  `json:"forename"`
 	Surname     string  `json:"surname"`
 	GrossSalary float64 `json:"grossSalary"`
 	CountryCode int     `json:"counrtyCode"`

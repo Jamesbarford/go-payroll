@@ -13,11 +13,11 @@ INSERT INTO countries(id, country_name) VALUES
   (1, 'France'),
   (2, 'Italy');
 
-INSERT INTO payroll(gross_salary, date_payable, user_id) VALUES
-  (60000, '2022-06-22 05:00:00-07', 1), -- Alice
-  (90000, '2022-06-22 05:00:00-07', 2), -- Bob
-  (40000, '2022-06-22 05:00:00-07', 3), -- Json
-  (20000, '2022-06-22 05:00:00-07', 4); -- Brian
+INSERT INTO payroll(gross_salary, user_id) VALUES
+  (60000, 1), -- Alice
+  (90000, 2), -- Bob
+  (40000, 3), -- Json
+  (20000, 4); -- Brian
 
 INSERT INTO taxes(percent,country_code) VALUES
   (30, 2), -- FRANCE

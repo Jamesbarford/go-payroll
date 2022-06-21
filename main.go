@@ -1,7 +1,8 @@
 package main
 
-import "/src/server"
+import "github.com/Jamesbarford/go-payroll/src"
 
+/* Driver function */
 func main() {
-	server.ServerMain("3333")
+	src.ServerMain("3333")
 }
